@@ -1,0 +1,35 @@
+.button {
+  @apply
+    inline-block
+    border
+    border-solid
+    rounded
+    py-2
+    px-5
+    ml-4
+    mt-4
+    no-underline;
+  }
+.button__green {
+  @apply
+    border-green-darker
+    text-green-darker;
+}
+.button__green:hover
+{
+  @apply
+    text-white
+    bg-green-darker;
+}
+.button__grey
+{
+  @apply
+    border-grey-darker
+    text-grey-darker;
+}
+.button__grey:hover
+{
+  @apply
+    text-white
+    bg-grey-darker;
+}
