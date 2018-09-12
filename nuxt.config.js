@@ -62,6 +62,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    // Required for purgeCSS to work
+    extractCSS: true,
+
     /*
     ** You can extend webpack config here
     */
